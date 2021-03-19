@@ -1,0 +1,23 @@
+{
+  "Germline.sampleConfigFile": "tests/samplesheets/PairedEndGenderAware.csv",
+  "Germline.dockerImagesFile": "dockerImages.yml",
+  "Germline.referenceFasta": "tests/data/gender-aware/reference.fasta",
+  "Germline.referenceFastaFai": "tests/data/gender-aware/reference.fasta.fai",
+  "Germline.referenceFastaDict": "tests/data/gender-aware/reference.dict",
+  "Germline.bwaIndex": {
+    "fastaFile": "tests/data/gender-aware/bwa/reference.fa",
+    "indexFiles": [
+      "tests/data/gender-aware/bwa/reference.fa.amb",
+      "tests/data/gender-aware/bwa/reference.fa.ann",
+      "tests/data/gender-aware/bwa/reference.fa.bwt",
+      "tests/data/gender-aware/bwa/reference.fa.pac",
+      "tests/data/gender-aware/bwa/reference.fa.sa"
+    ]
+  },
+  "Germline.dbsnpVCF": "tests/data/gender-aware/expected.vcf.gz",
+  "Germline.dbsnpVCFIndex": "tests/data/gender-aware/expected.vcf.gz.tbi",
+  "Germline.XNonParRegions": "tests/data/gender-aware/x_non_par.bed",
+  "Germline.YNonParRegions": "tests/data/gender-aware/y_non_par.bed",
+  "Germline.bwaThreads": 1,
+  "Germline.runSVcalling": false
+}
